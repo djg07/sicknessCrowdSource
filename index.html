@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://js.arcgis.com/3.12/esri/css/esri.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="http://js.arcgis.com/3.12/"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/mapping.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+</head>
+<body>
+
+    <div id="map" style="position:absolute">
+
+
+
+    </div>
+
+    <div id ="addDataPanel" class="panel-group" id="accordion">
+
+        <div class="panel panel-default" >
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Add Data</a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <!--<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,-->
+                <!--sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,-->
+                <!--quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>-->
+                <div style="height:200px; width:200px;">
+                    <div>
+                        <span>Add a message:</span><input type="text" id="message">
+                        <button id="addPoint">Go</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
