@@ -4,14 +4,14 @@
 
 
 
-$( document ).ready(function() {
+$(document).ready(function () {
 
-    $( "#addPoint" ).click(function() {
-        alert( "Clicked Go" );
+    $("#addPoint").click(function () {
+        alert("Clicked Go");
 
-        $('#map').click(function() {
+        $('#map').click(function () {
             alert('clicked map');
-        })
+        });
         //TODO remove map listener now
 
     });
